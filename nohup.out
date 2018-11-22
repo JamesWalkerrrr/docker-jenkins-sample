@@ -1,0 +1,75 @@
+Running from: /usr/local/jenkins/jenkins.war
+webroot: $user.home/.jenkins
+十一月 22, 2018 2:26:28 下午 org.eclipse.jetty.util.log.Log initialized
+信息: Logging initialized @1867ms to org.eclipse.jetty.util.log.JavaUtilLog
+十一月 22, 2018 2:26:29 下午 winstone.Logger logInternal
+信息: Beginning extraction from war file
+十一月 22, 2018 2:26:29 下午 org.eclipse.jetty.server.handler.ContextHandler setContextPath
+警告: Empty contextPath
+十一月 22, 2018 2:26:29 下午 org.eclipse.jetty.server.Server doStart
+信息: jetty-9.4.z-SNAPSHOT; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_191-b12
+十一月 22, 2018 2:26:30 下午 org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+信息: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+十一月 22, 2018 2:26:31 下午 org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+信息: DefaultSessionIdManager workerName=node0
+十一月 22, 2018 2:26:31 下午 org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+信息: No SessionScavenger set, using defaults
+十一月 22, 2018 2:26:31 下午 org.eclipse.jetty.server.session.HouseKeeper startScavenging
+信息: node0 Scavenging every 660000ms
+Jenkins home directory: /root/.jenkins found at: $user.home/.jenkins
+十一月 22, 2018 2:26:32 下午 org.eclipse.jetty.server.handler.ContextHandler doStart
+信息: Started w.@387a8303{Jenkins v2.152,/,file:///root/.jenkins/war/,AVAILABLE}{/root/.jenkins/war}
+十一月 22, 2018 2:26:32 下午 org.eclipse.jetty.server.AbstractConnector doStart
+信息: Started ServerConnector@f68f0dc{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+十一月 22, 2018 2:26:32 下午 org.eclipse.jetty.server.Server doStart
+信息: Started @5551ms
+十一月 22, 2018 2:26:32 下午 winstone.Logger logInternal
+信息: Winstone Servlet Engine v4.0 running: controlPort=disabled
+十一月 22, 2018 2:26:34 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+十一月 22, 2018 2:26:36 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+十一月 22, 2018 2:26:48 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+十一月 22, 2018 2:26:48 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+十一月 22, 2018 2:26:51 下午 hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+信息: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+十一月 22, 2018 2:26:52 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+十一月 22, 2018 2:26:53 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+十一月 22, 2018 2:26:53 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 22, 2018 2:26:53 下午 hudson.util.Retrier start
+信息: Attempt #1 to do the action check updates server
+十一月 22, 2018 2:26:53 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+十一月 22, 2018 2:26:53 下午 hudson.WebAppMain$3 run
+信息: Jenkins is fully up and running
+十一月 22, 2018 2:27:11 下午 hudson.model.UpdateSite updateData
+信息: Obtained the latest update center data file for UpdateSource default
+十一月 22, 2018 2:27:13 下午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+十一月 22, 2018 2:27:14 下午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+十一月 22, 2018 2:27:15 下午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.plugins.gradle.GradleInstaller
+十一月 22, 2018 2:27:28 下午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tools.JDKInstaller
+十一月 22, 2018 2:27:28 下午 hudson.util.Retrier start
+信息: Performed the action check updates server successfully at the attempt #1
+十一月 22, 2018 2:27:28 下午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 34,884 ms
+十一月 22, 2018 3:40:03 下午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of publish-over for plugin publish-over-ssh
+十一月 22, 2018 3:40:23 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of Infrastructure plugin for Publish Over X on behalf of anonymous
+十一月 22, 2018 3:40:25 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading Infrastructure plugin for Publish Over X
+十一月 22, 2018 3:40:25 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of Publish Over SSH on behalf of anonymous
+十一月 22, 2018 3:40:26 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading Publish Over SSH
+十一月 22, 2018 3:43:44 下午 winstone.Logger logInternal
+信息: JVM is terminating. Shutting down Jetty
