@@ -1,9 +1,9 @@
-FROM tchap/centos-epel
-
+FROM centos:centos7
 MAINTAINER zhangwq "zhangwangqing@163.com"
 
 # Update packages
-RUN yum update -y
+RUN yum -y update;yum clean all &&\
+    yum -y install epel-release tar;yum clean all
 
 # Install Node.js
 RUN yum install -y nodejs npm
